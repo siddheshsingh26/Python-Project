@@ -156,6 +156,17 @@ if __name__ == "__main__":
             cm = takeCommand().lower()
             webbrowser.open("https://www.youtube.com/results?search_query=" + cm)
             break
+            
+        elif "open Google Colab" in query:
+            speak(" Opening Google Colab")
+            webbrowser.open("https://colab.research.google.com")
+            break
+
+        elif "open code with harry website" in query:
+            speak(" Opening the best online code learning platform")
+            webbrowser.open("https://www.codewithharry.com")
+            break
+         
 
         elif "open google" in query:
             speak("sir,what should i search on google")
